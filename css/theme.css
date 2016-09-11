@@ -1512,15 +1512,19 @@ section .lead {
 section.light {
   background: #ededed;
 }
-section.light.with-bg {
-  background: url('../img/bg-content1.jpg') center center no-repeat;
+section.light.with-bg-01 {
+  background: url('../img/reaction-1.jpeg') center center no-repeat;
   background-size: cover;
 }
 section.dark {
   background: #2b2d35;
 }
-section.dark.with-bg {
+section.dark.with-bg-01 {
   background: url('../img/reaction-1.jpeg') center center no-repeat;
+  background-size: cover;
+}
+section.dark.with-bg-02 {
+  background: url('../img/reaction-2.jpeg') center center no-repeat;
   background-size: cover;
 }
 section.dark h1,
